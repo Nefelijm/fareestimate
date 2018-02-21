@@ -41,8 +41,8 @@
 
 div #map{
 margin-top: 2%;
- width: 80%;
- height: 80vh;
+ width: 50%;
+ height: 70vh;
  background-color: red;
  border: 3px solid black;
 }
