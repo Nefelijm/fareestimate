@@ -9,19 +9,72 @@
     <title>FareEstimate</title>
 </head>
 <body>
+<!--**************navbar***********************-->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <img src="assets/images/uber-12.svg" class="logo" width="70px" height="40px"  alt="">
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Viaja <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Conduce</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">AYUDA</a></li>
+        <li><a href="#">INICIAR SESIÓN</a></li>
+        <li><img src="assets/images/ubic.png" class="iconUbic" alt=""></li>
+        <li><a href="#"><span class="styleBtn"> CONVIÉRTETE EN SOCIO CONDUCTOR</span></a></li>
+        <li class="iconHam"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!--**************termina navbar***********************-->
+
+
+
+
    <div class="container">
        <div class="row">
-           <div class="col-xs-12 col-ms-12 col-md-12">
-						 <h1>Estimador de Tarifas Uber</h1>
-						 <p>¿Cuál es el costo de viajes Uber en tu ciudad? <br>
-							  Calcula una tarifa para tu próximo viaje. Simplemente ingresa un punto de
-				        partida y un destino para comenzar</p>
-						 <input type="inicio">
-						 <input type="partida">				 
+           <div class="col-xs-12 col-ms-6 col-md-4 styleContainerTitle">
+						 <h2 class="styleTitle">Estimador de Tarifas Uber</h2>
+						 <p class="styleP">¿Cuál es el costo de viajes Uber en tu ciudad? <br>
+						Calcula una tarifa para tu próximo viaje. Simplemente ingresa un punto de
+				        partida y un destino para comenzar</p>				 
 
            </div>
        </div>
    </div>
+
+   <div class="container">
+      <div class="row">
+   <form class="form-horizontal styleContainerInput col-md-4">
+      <div class="form-group">
+        
+        <div class="col-md-10">
+          <input type="text" class="form-control" id="inputStart" placeholder="Ingresa el punto de partida">
+          <span class="glyphicon glyphicon-send iconsInput" aria-hidden="true"></span>
+        </div>
+      </div>
+      <div class="form-group">
+       
+        <div class="col-md-10">
+          <input type="text" class="form-control" id="inputDestiny" placeholder="Ingresa un destino">
+          <span class="glyphicon glyphicon-arrow-right iconsInput" aria-hidden="true"></span>
+        </div>
+      </div>
+      </form>
+    </div>
+  </div>
+      
     
     
 
