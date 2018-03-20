@@ -35,7 +35,7 @@ function initMap() {
   let start = document.getElementById('inputStart');
   let destination = document.getElementById('inputDestiny');
 
-// Autocompletando
+// Autocompletando en el search
   new google.maps.places.Autocomplete(start);
   new google.maps.places.Autocomplete(destination);
   let directionsService = new google.maps.DirectionsService;
